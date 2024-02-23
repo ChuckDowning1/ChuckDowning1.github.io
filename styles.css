@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif; /* Optional: set a default font */
+}
+
+.banner {
+    background-image: url('criver.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2em;
+}
+
+.profile-pic-container {
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-pic {
+        width: 100px;
+    }
+}
+
+.intro p {
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: #333; /* Dark grey for readability */
+    font-size: 1.3em; /* Adjust as needed */
+    max-width: 600px; /* Keeps the line length manageable */
+    margin: 20px auto; /* Centering and spacing */
+    line-height: 1.5; /* Improves readability */
+}
+
+.banner-box {
+    background-color: rgba(255, 255, 255, 0.0); /* transparent white */
+    border: 2px solid #fff; /* White border */
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header strong {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
